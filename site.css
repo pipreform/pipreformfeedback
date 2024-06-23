@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #2196F3; /* Changed from green to blue */
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -24,7 +24,7 @@ section {
 }
 
 h2 {
-    color: #4CAF50;
+    color: #2196F3; /* Changed from green to blue */
 }
 
 ul {
@@ -32,12 +32,16 @@ ul {
     padding-left: 20px;
 }
 
+ul ul {
+    list-style-type: circle;
+}
+
 li {
     margin-bottom: 10px;
 }
 
 a {
-    color: #4CAF50;
+    color: #2196F3; /* Changed from green to blue */
     text-decoration: none;
 }
 
