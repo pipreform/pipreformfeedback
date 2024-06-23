@@ -3,12 +3,13 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f9;
+    line-height: 1.6; /* Improved line spacing */
 }
 
 header {
     background-color: #2196F3; /* Changed from green to blue */
     color: white;
-    padding: 10px 0;
+    padding: 20px 0; /* Increased padding for better spacing */
     text-align: center;
 }
 
@@ -21,23 +22,36 @@ section {
     margin: 20px 0;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; /* Rounded corners for a modern look */
 }
 
 h2 {
     color: #2196F3; /* Changed from green to blue */
+    margin-bottom: 10px;
 }
 
 ul {
-    list-style-type: disc;
+    list-style-type: none; /* Remove default bullets */
     padding-left: 20px;
 }
 
-ul ul {
-    list-style-type: circle;
+ul li {
+    position: relative;
+    padding-left: 20px; /* Space for custom bullet */
+    margin-bottom: 10px; /* Spacing between items */
 }
 
-li {
-    margin-bottom: 10px;
+ul li:before {
+    content: '•'; /* Custom bullet */
+    position: absolute;
+    left: 0;
+    color: #2196F3; /* Bullet color */
+    font-size: 1.2em; /* Bullet size */
+    line-height: 1; /* Bullet alignment */
+}
+
+ul ul li:before {
+    content: '○'; /* Custom bullet for nested lists */
 }
 
 a {
