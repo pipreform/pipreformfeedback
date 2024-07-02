@@ -7,10 +7,26 @@ body {
 }
 
 header {
-    background-color: #2196F3; /* Changed from green to blue */
+    background-color: #2196F3; /* Blue background */
     color: white;
     padding: 20px 0; /* Increased padding for better spacing */
     text-align: center;
+    position: relative; /* Allows positioning of subtitle */
+}
+
+header h1 {
+    font-size: 2.5em; /* Larger font size for prominence */
+    margin: 0;
+}
+
+.header-subtitle {
+    font-size: 1em;
+    color: whitesmoke; /* Darker yellow color for better contrast */
+    position: absolute;
+    font-weight: 300; /* Thinner font weight */
+    bottom: 10px;
+    right: 20px;
+    margin: 0;
 }
 
 main {
@@ -61,4 +77,37 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.feedback-section {
+    background-color: #f8f9fa; /* Light background for emphasis */
+    border: 2px solid #007bff; /* Blue border for attention */
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.feedback-title {
+    font-size: 2em;
+    color: #dc3545; /* Red color for urgency */
+    margin-bottom: 10px;
+    text-transform: uppercase; /* Make the text stand out */
+}
+
+.feedback-text {
+    font-size: 1.2em;
+    color: #343a40; /* Dark color for readability */
+    margin-bottom: 10px;
+}
+
+.feedback-link {
+    color: #007bff; /* Blue link for visibility */
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.feedback-link:hover {
+    color: #0056b3; /* Darker blue on hover */
+    text-decoration: none;
 }
