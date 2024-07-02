@@ -62,3 +62,36 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.feedback-section {
+    background-color: #f8f9fa; /* Light background for emphasis */
+    border: 2px solid #007bff; /* Blue border for attention */
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.feedback-title {
+    font-size: 2em;
+    color: #dc3545; /* Red color for urgency */
+    margin-bottom: 10px;
+    text-transform: uppercase; /* Make the text stand out */
+}
+
+.feedback-text {
+    font-size: 1.2em;
+    color: #343a40; /* Dark color for readability */
+    margin-bottom: 10px;
+}
+
+.feedback-link {
+    color: #007bff; /* Blue link for visibility */
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.feedback-link:hover {
+    color: #0056b3; /* Darker blue on hover */
+    text-decoration: none;
+}
