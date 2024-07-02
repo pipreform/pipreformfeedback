@@ -21,8 +21,9 @@ header h1 {
 
 .header-subtitle {
     font-size: 1em;
-    color: #ffeb3b; /* Yellow color for contrast */
+    color: whitesmoke; /* Darker yellow color for better contrast */
     position: absolute;
+    font-weight: 300; /* Thinner font weight */
     bottom: 10px;
     right: 20px;
     margin: 0;
